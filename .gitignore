@@ -1,0 +1,4 @@
+# Prevents embedded git repos to be included
+**/.git
+# Vundle repository
+.vim/bundle/Python-syntax
