@@ -1,0 +1,52 @@
+!! Colors
+! special
+URxvt*foreground: #c5c8c6
+URxvt*background: #1d1f21
+
+! black
+Urxvt*color0: #282a2e
+Urxvt*color8: #373b41
+
+! red
+Urxvt*color1: #a54242
+Urxvt*color9: #cc6666
+
+! yellow
+Urxvt*color2: #8c9440
+Urxvt*color10: #b5bd68
+
+! orange
+Urxvt*color3: #de935f
+Urxvt*color11: #f0c674
+
+! blue
+Urxvt*color4: #5f819d
+Urxvt*color12: #81a2be
+
+! purple
+Urxvt*color5: #85678f
+Urxvt*color13: #b294bb
+
+! green
+Urxvt*color6: #5e8d87
+Urxvt*color14: #8abeb7
+
+! gray
+Urxvt*color7: #707880
+Urxvt*color15: #c5c8c6
+
+! Scrolling
+URxvt*scrollBar: false
+
+! Font stuff
+URxvt*font: xft:SourceCodePro:size=11
+URxvt*letterSpace: -1
+
+! Copy and Paste
+URxvt.clipboard.autocopy: true
+URxvt.keysum.M-c: perl:clipboard:copy
+URxvt.keysum.M-v: perl:clipboard:paste
+
+
+! Extensions
+URxvt.perl-ext-common: clipboard, resize-font
