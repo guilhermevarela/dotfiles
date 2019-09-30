@@ -1,7 +1,14 @@
 !! Colors
 ! special
 URxvt*foreground: #c5c8c6
-URxvt*background: #1d1f21
+! URxvt*background: #1d1f21
+! Transparency: True transparency
+URxvt*depth: 32
+URxvt*background: [70]#1d1f21
+
+! URxvt*inheritPixmap: true
+! URxvt*transparent: true
+! URxvt*shading: 0 to 99 darkens, 101 ti 200 lightens
 
 ! black
 Urxvt*color0: #282a2e
@@ -34,6 +41,8 @@ Urxvt*color14: #8abeb7
 ! gray
 Urxvt*color7: #707880
 Urxvt*color15: #c5c8c6
+
+
 
 ! Scrolling
 URxvt*scrollBar: false
