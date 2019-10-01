@@ -180,8 +180,15 @@ bar {
         status_command i3status
 }
 
+# "Ricing" it up
 # Custom key-binding lock terminal
 bindsym $mod+Shift+x exec i3lock
 
 # Wallpaper
 exec_always feh --bg-scale /home/gsavarela/Pictures/755719.jpg
+
+# Putting some gaps on it
+# Transparency issues with urxvt-unicode when gaps are enabled
+for_window [class=".*"] border pixel 0
+gaps inner 5
+gaps outer 15
