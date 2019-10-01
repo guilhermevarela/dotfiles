@@ -4,7 +4,7 @@ URxvt*foreground: #c5c8c6
 ! URxvt*background: #1d1f21
 ! Transparency: True transparency
 URxvt*depth: 32
-URxvt*background: [70]#1d1f21
+URxvt*background: [75]#1d1f21
 
 ! URxvt*inheritPixmap: true
 ! URxvt*transparent: true
